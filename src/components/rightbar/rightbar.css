@@ -56,7 +56,8 @@
 .rightbarFollowings{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: start;
+    gap: 20px;
 }
 .rightbarFollowing{
     display: flex;
@@ -69,4 +70,22 @@
     height: 100px;
     object-fit: cover;
     border-radius: 5px;
+}
+.rightbarFollowButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1877f2;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.rightbarFollowButton:hover{
+    scale: 1.1;
 }
